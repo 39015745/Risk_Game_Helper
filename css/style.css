@@ -6,7 +6,6 @@ body {
     font-family: "Kumbh Sans", sans-serif;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: url(images/stripes.png) no-repeat center center fixed;
 }
 
 html:before {
@@ -14,7 +13,7 @@ html:before {
     position: fixed;
     z-index: -1;
     inset: -75%;
-    background: url(images/stripes.png) no-repeat center center fixed;
+    background: url(../images/stripes.png) no-repeat center center fixed;
     animation: spin 60s linear infinite;
 }
 
